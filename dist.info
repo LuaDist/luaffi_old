@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "luaffi"
+version = "0.9.0"
+
+desc = "Libffi binding to lua, allow to call C functions from lua dynamically, and to generate lua closures as C function pointers."
+author = "Vincent Penne"
+url = "http://luaforge.net/projects/luaffi/"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1",
+	"libffi >=1.0"
+}
